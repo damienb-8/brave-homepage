@@ -9,6 +9,23 @@ body {
     align-items: center;
 }
 
+* {
+    font-family: "Emblema One", system-ui;
+}
+
 h1 {
     width: 50%;
+    min-width: 300px;
+    margin-top: 15vh;
+    padding-bottom: 15px;
+
+    border: rgba(0, 0, 0, 0.5) 6px solid;
+    border-radius: 45px;
+
+    color: rgba(0, 0, 0, 0.9);
+    font: 4em "Notable", sans-serif;
+    text-align: center;
+
+    background-color: rgba(255, 140, 0, 0.05);
+    backdrop-filter: blur(3px);
 }
